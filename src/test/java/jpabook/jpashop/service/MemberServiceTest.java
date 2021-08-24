@@ -30,7 +30,7 @@ public class MemberServiceTest {
         member.setName("kim");
 
         //when
-        em.flush();
+        em.flush(); // 쿼리를 보기위1
         Long savedId = memberService.join(member);
 
         //then
